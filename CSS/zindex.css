@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(FormBack.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading1 {
+    position: sticky;
+    text-decoration: underline;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(234, 162, 149);
+    margin: auto;
+    box-shadow: 0px 0px 10px;
+    letter-spacing: 25px;
+    opacity: 0.5;
+    /* stroke: 1px white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px; */
+}
+
+.marq {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(236, 184, 236);
+    height: 40px;
+    box-shadow: 0px 0px 20px;
+    font-size: 2rem;
+    letter-spacing: 25px;
+    text-decoration: underline;
+    z-index: -1;
+}
+
+.main-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    height: 400px;
+    width: 800px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.sing-up {
+    text-align: center;
+    letter-spacing: 5px;
+    color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.inpt {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+    /* background-color: gray; */
+}
+
+::placeholder {
+    color: rgb(198, 187, 187);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    font-size: 20px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: transparent;
+}
+
+input:focus {
+    background-color: lightgray;
+}
+
+.btn {
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    font-size: 20px;
+    background-color: lightgreen;
+}
+
+.btn:hover {
+    background-color: rgb(91, 221, 79);
+}
+
+.fa-solid {
+    position: relative;
+    left: 10px;
+}
+
+.sug {
+    display: none;
+    font-size: 10px;
+    float: right;
+}
+
+p {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    line-height: 2;
+    background-color: rgb(201, 182, 182);
+    color: rgb(255, 1, 1);
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.fa-solid:hover .sug {
+    display: block;
+}

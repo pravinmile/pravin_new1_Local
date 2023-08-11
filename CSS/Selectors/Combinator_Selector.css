@@ -1,0 +1,10 @@
+div p{
+    background-color: yellow;
+    width: 200px;
+    text-align: center;
+}
+
+div > i {
+    background-color: tan;
+    font-size: 20px;
+}

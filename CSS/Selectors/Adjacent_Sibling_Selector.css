@@ -1,0 +1,9 @@
+div+h1{
+    background-color: aquamarine;
+    text-align: center;
+    margin: auto;
+}
+span + b{
+    
+    background-color: yellowgreen;
+}

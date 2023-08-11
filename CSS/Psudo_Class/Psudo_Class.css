@@ -1,0 +1,42 @@
+a:hover{
+    color: red;
+    background-color: lightgreen;
+    font-size: 70px;
+    
+}
+a:visited{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+.main{
+    background-color: aqua;
+    width: 400px;
+    height: 65px;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+}
+.main1{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+div:hover{
+    background-color: lightgray;
+}
+.inp{
+    color: orangered;
+}
+input:focus{
+    background-color: turquoise;
+}
+input:hover{
+    size: 50px;
+}
+p::first-letter{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}

@@ -1,0 +1,55 @@
+.main{
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 260px;    
+    background-color: lightsteelblue;
+    box-shadow: 0px 0px 25px inset;
+}
+.form_main{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1:hover{
+    font-size: 40px;
+}
+.btn{
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px inset;
+    border-radius: 5px;
+}
+button:hover{
+    font-size: 30px;
+    box-shadow: 0px 0px 150px black;
+    box-shadow: 0px 0px 4px inset;
+}
+input:focus{
+    background-color: rgb(216, 140, 140);
+    color: red;
+}
+.main_input{
+    color: black;
+    background-color: rgb(237, 231, 225);
+    box-shadow: 0px 0px 4px inset;
+}
+div.main:hover{
+    background-color: lightcyan;
+}
+img{
+    height: 100px;
+    width: 100px;
+    filter: blur();
+}
+div.container{
+    float: left;
+}
+.div1{
+    background-color: red;
+}
+.div2{
+    background-color: wheat;
+}
+.div3{
+    background-color: green;
+}

@@ -1,0 +1,105 @@
+.new-con {
+    background-color: black;
+    height: 28px;
+    font-size: 25px;
+}
+
+.container {
+    background-color: tomato;
+    position: relative;
+    display: inline-block;
+    float: right;
+    display: inline;
+    top: -28px;
+
+}
+
+.hm {
+    color: white;
+
+}
+
+.con-us {
+    color: white;
+
+}
+
+.list {
+    color: white;
+
+}
+
+
+.hm:hover {
+    background-color: rgb(102, 100, 100);
+}
+
+.con-us:hover {
+    background-color: rgb(102, 100, 100);
+}
+
+.list:hover {
+    background-color: rgb(102, 100, 100);
+    ;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: lightgreen;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+}
+
+/* #lc{
+    transition-property: all;
+    transition-duration: 1s;
+} */
+.list-item{
+    font-size: 20px;
+    background-color: beige;
+    position: relative;
+    width: 400px;
+}
+
+.link-container {
+    background-color: lightblue;
+    position: absolute;
+    width: 159px;
+    font-size: 35px;
+    text-align: center;
+    display: none;
+    /* left: 119px; */
+}
+
+.container:hover .link-container {
+    display: block;
+}
+
+.link1, .link2, .link3 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.link1:hover, .link2:hover, .link3:hover {
+    background-color: rgb(107, 107, 173);
+}
+
+/* .para1 {
+    font-size: 20px;
+    text-align: justify;
+    position: absolute;
+    top: 500px;
+
+}
+
+.para2,
+.para3 {
+    display: none;
+} */
+
+.link-container:hover .para1 {
+    background-color: yellow;
+}

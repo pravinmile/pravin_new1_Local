@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+.heading{
+    background-color: greenyellow;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+    position: sticky;
+    top: 0px;
+}
+.parra{
+    background-color: steelblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 20px;
+}
+.heading2{
+    background-color: violet;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.marq{
+    background-color: violet;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    bottom: 0;
+}

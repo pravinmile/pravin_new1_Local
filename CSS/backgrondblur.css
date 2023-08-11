@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section{
+    position: relative;
+    display: flex;
+    background: url(DSlayer.jpg);
+    height: 100vh;
+    /* background-attachment: fixed; */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.section .login-page{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 250px;
+}
+.heading-1{
+    font-size: 40px;
+    color: white;
+    border-bottom: 1px solid gray;
+    float: left;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    color: white;
+    padding: 8px 0px;
+    border-bottom: 1px solid white;
+    margin: 8px 0px;
+}
+input{
+    border: none;
+    background: transparent;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+    background: transparent;
+    border: 2px solid wheat;
+    margin-top: 10px;
+    font-size: 20px;
+    color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color: rgb(92, 181, 93);
+}
+.heading-1:hover{
+    color: yellowgreen;
+}

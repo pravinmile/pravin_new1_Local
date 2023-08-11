@@ -1,0 +1,31 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    border: 1px dashed black;
+    font-size: larger;
+}
+
+#header2{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy ;
+    border: 1px ridge black;
+}
+
+.main_container{
+    margin: auto;
+    text-align: end;
+    background-color: beige;
+    font-family: Georgia;
+    border: 2px solid green;
+}
+u{
+    font-size: 3rem;
+}
